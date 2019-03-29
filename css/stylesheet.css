@@ -1,0 +1,24 @@
+body {
+    width: 50rem;
+    margin: auto;
+}
+
+.is-required {
+    color: red;
+}
+
+#account-details, form {
+    width: 100%;
+}
+
+#user-details label {
+    width: 22%;
+}
+
+.subtitle {
+    border-bottom: 1px solid black;
+}
+
+#submit-button {
+    margin-top: .5em;
+}
