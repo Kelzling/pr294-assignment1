@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bachgal Online - Sign Up</title>
+</head>
+<body>
+    <header><p>header goes here</p></header>
+    <nav><p>nav goes here</p></nav>
+    <div id="main-container">
+        <h2>Welcome to our Community!</h2>
+        <form id="sign-up">
+            <div id="account-details">
+                <h3>Account Details</h3>
+                <label for="username">Username<span class="is-required">*</span> (3-20 characters)</label>
+                <input type="text" id="username" name="username" />
+                <label for="email">Email<span class="is-required">*</span></label>
+                <input type="text" id="email" name="email" />
+                <label for="confirm-email">Confirm Email<span class="is-required">*</span></label>
+                <input type="text" id="confirm-email" name="confirm-email" />
+                <label for="password">Password<span class="is-required">*</span> (8-20 characters)</label>
+                <input type="text" id="password" name="password" />
+                <label for="confirm-password">Confim Password<span class="is-required">*</span></label>
+                <input type="text" id="confirm-password" name="confirm-password" />
+            </div>
+            
+            <div id="user-details">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" />
+                <label for="gender">Gender<span class="is-required">*</span></label>
+                <select id="gender" name="gender">
+                    <option>M</option>
+                    <option>F</option>
+                    <option>O</option>
+                    <option selected>Prefer not to say</option>
+                </select>
+                <label for="timezone">Timezone</label>
+                <select id="timezone" name="timezone">
+                    <option selected>NZT</option>
+                    <option>AEST</option>
+                    <option>PST</option>
+                </select>
+            </div>
+            
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+</body>
+</html>
