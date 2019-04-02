@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+// TEST SASS STUFF FROM TUTORIAL
+
+// Set colours
+$yellow-dark: #F9BE7A;
+$brown: #C38247;
+$orange: #CF5D2A;
+$green-light: #57C9A0;
+$green: #2D8666;
+$green-dark: #235B46;
+
+// Update Bulma's global variables
+$primary: $green-dark;
+$primary-invert: findColorInvert($green-dark);
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $green-dark;
+
+
+@import "../node_modules/bulma/bulma.sass"; // THIS NEEDS TO BE AT THE END OR IT WON'T WORK

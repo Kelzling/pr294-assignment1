@@ -1,0 +1,26 @@
+{
+  "name": "pr294-assignment1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sass/stylesheet.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url sass/mybulma.scss css/mybulma.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kelzling/pr294-assignment1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kelzling/pr294-assignment1/issues"
+  },
+  "homepage": "https://github.com/Kelzling/pr294-assignment1#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "bulma": "^0.7.4"
+  }
+}
