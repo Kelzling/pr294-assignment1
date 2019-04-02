@@ -11,43 +11,43 @@
 </head>
 <body>
     <header><p>header goes here</p></header>
-    <nav><p>nav goes here</p></nav>
-    <div id="main-container" class="section">
+    <nav class="has-background-green has-text-white"><p>nav goes here</p></nav>
+    <div id="main-container" class="section has-background-primary">
         <div class="columns">
-            <div class="column is-8 is-offset-2">
-                <h2 class="title">Welcome to our Community!</h2>
+            <div class="column is-three-fifths is-offset-one-fifth">
+                <h2 class="title has-text-orange has-text-centered">Welcome to our Community!</h2>
                 <form id="sign-up">
                     <div id="account-details">
-                        <h3 class="subtitle">Account Details</h3>
+                        <h3 class="subtitle has-text-orange">Account Details</h3>
                         <div class="field">
-                            <label for="username" class="label">Username<span class="is-required">*</span> (3-20 characters)</label>
+                            <label for="username" class="label has-text-orange has-text-weight-normal">Username<span class="is-required">*</span> (3-20 characters)</label>
                             <div class="control">
                                 <input class="input" type="text" id="username" name="username" />
                             </div>
                         </div>
                         
                         <div class="field">
-                            <label for="email" class="label">Email<span class="is-required">*</span></label>
+                            <label for="email" class="label has-text-orange has-text-weight-normal">Email<span class="is-required">*</span></label>
                             <div class="control is-expanded">
                                 <input class="input" type="email" id="email" name="email" />
                             </div>
                         </div>
                         
                         <div class="field">
-                            <label for="confirm-email" class="label">Confirm Email<span class="is-required">*</span></label>
+                            <label for="confirm-email" class="label has-text-orange has-text-weight-normal">Confirm Email<span class="is-required">*</span></label>
                             <div class="control is-expanded">
                                 <input class="input" type="text" id="confirm-email" name="confirm-email" />
                             </div>
                         </div>
                         
                         <div class="field">
-                            <label for="password" class="label">Password<span class="is-required">*</span> (8-20 characters)</label>
+                            <label for="password" class="label has-text-orange has-text-weight-normal">Password<span class="is-required">*</span> (8-20 characters)</label>
                             <div class="control is-expanded">
                                 <input class="input" type="password" id="password" name="password" />
                             </div>
                         </div>
                         <div class="field">
-                            <label for="confirm-password" class="label">Confim Password<span class="is-required">*</span></label>
+                            <label for="confirm-password" class="label has-text-orange has-text-weight-normal">Confim Password<span class="is-required">*</span></label>
                             <div class="control is-expanded">
                                 <input class="input" type="password" id="confirm-password" name="confirm-password" />
                             </div>
@@ -55,16 +55,16 @@
                     </div>
                     
                     <div id="user-details">
-                        <h3 class="subtitle">User Details</h3>
+                        <h3 class="subtitle has-text-orange" id="user-details-heading">User Details</h3>
                         <div class="field has-addons">
-                            <label for="dob" class="label">Date of Birth</label>
+                            <label for="dob" class="label has-text-orange has-text-weight-normal">Date of Birth</label>
                             <div class="control is-expanded">
                                 <input class="input" type="date" id="dob" name="dob" />
                             </div>
                         </div>
                         
                         <div class="field has-addons">
-                            <label for="gender" class="label">Gender<span class="is-required">*</span></label>
+                            <label for="gender" class="label has-text-orange has-text-weight-normal">Gender<span class="is-required">*</span></label>
                             <div class="control is-expanded">
                                 <div class="select is-fullwidth">
                                     <select id="gender" name="gender">
@@ -78,7 +78,7 @@
                         </div>
                         
                         <div class="field has-addons">
-                            <label for="timezone"  class="label">Timezone<span class="is-required">*</span></label>
+                            <label for="timezone"  class="label has-text-orange has-text-weight-normal">Timezone<span class="is-required">*</span></label>
                             <div class="control is-expanded">
                                 <div class="select is-fullwidth">
                                     <select id="timezone" name="timezone">
@@ -92,7 +92,7 @@
                     </div>
                     
                     <div class="buttons is-right" id="submit-button">
-                        <input type="submit" value="Submit" class="button is-primary" />
+                        <input type="submit" value="Submit" class="button is-green" />
                     </div>
                 </form>
             </div>

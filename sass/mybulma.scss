@@ -1,14 +1,22 @@
 @charset "utf-8";
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+@import "../node_modules/bulma/sass/utilities/functions";
 
 // TEST SASS STUFF FROM TUTORIAL
 
 // Set colours
-$yellow-dark: #F9BE7A;
+$yellow-dark: #F9CEA1;
+$yellow-dark-invert: findColorInvert($yellow-dark);
 $brown: #C38247;
+$brown-invert: findColorInvert($brown);
 $orange: #CF5D2A;
+$orange-invert: findColorInvert($orange);
 $green-light: #57C9A0;
+$green-light-invert: findColorInvert($green-light);
 $green: #2D8666;
+$green-invert: findColorInvert($green);
 $green-dark: #235B46;
+$green-dark-invert: findColorInvert($green-dark);
 
 // Update Bulma's global variables
 $primary: $green-dark;
@@ -16,8 +24,13 @@ $primary-invert: findColorInvert($green-dark);
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
-// Update some of Bulma's component variables
-$body-background-color: $green-dark;
 
+// Update some of Bulma's component variables
+$body-background-color: $yellow-dark;
+$input-background-color: $green-light;
+$input-border-color: $green;
+
+// add custom colours to colours map
+$custom-colors: ("green": ($green, $green-invert), "green-dark": ($green-dark, $green-dark-invert), "green-light": ($green-light, $green-light-invert), "yellow-dark": ($yellow-dark, $yellow-dark-invert), "brown": ($brown, $brown-invert), "orange": ($orange, $orange-invert));
 
 @import "../node_modules/bulma/bulma.sass"; // THIS NEEDS TO BE AT THE END OR IT WON'T WORK
