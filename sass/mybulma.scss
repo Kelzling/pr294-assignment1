@@ -2,8 +2,6 @@
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 @import "../node_modules/bulma/sass/utilities/functions";
 
-// TEST SASS STUFF FROM TUTORIAL
-
 // Set colours
 $yellow-dark: #F9CEA1;
 $yellow-dark-invert: findColorInvert($yellow-dark);
@@ -29,6 +27,8 @@ $fullhd-enabled: false;
 $body-background-color: $yellow-dark;
 $input-background-color: $green-light;
 $input-border-color: $green;
+$input-placeholder-color: $green-dark;
+$box-background-color: $green;
 
 // add custom colours to colours map
 $custom-colors: ("green": ($green, $green-invert), "green-dark": ($green-dark, $green-dark-invert), "green-light": ($green-light, $green-light-invert), "yellow-dark": ($yellow-dark, $yellow-dark-invert), "brown": ($brown, $brown-invert), "orange": ($orange, $orange-invert));

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bachgal Online - User Profile</title>
+    <link rel="stylesheet" href="./css/mybulma.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+</head>
+<body>
+    <header><p>header goes here</p></header>
+    
+    <nav class="level has-background-green" id="my-level">
+        <p class="level-item has-text-centered has-text-white is-mock-link">Home</p>
+        <p class="level-item has-text-centered has-text-white is-mock-link">Leaderboard</p>
+        <p class="level-item has-text-centered has-text-white is-mock-link">Sign Up</p>
+        <p class="level-item has-text-centered has-text-white is-mock-link">Log In</p>
+    </nav>
+    
+    <div id="main-container" class="section has-background-primary">
+        <div class="columns">
+            <div class="column is-3" id="user-blurb">
+                <div class="box">
+                    <div class="has-background-white" id="user-profile-pic-placeholder"></div>
+                    
+                    <p class="has-text-centered has-text-orange is-size-5">USERNAME</p>
+                    
+                    <div id="user-stats" class="has-background-green-dark">
+                        <ul id="user-stats-list">
+                            <li class="has-text-white"><span class="has-text-weight-semibold">Posts:</span> 42</li>
+                            <li class="has-text-white"><span class="has-text-weight-semibold">Age:</span> 19</li>
+                            <li class="has-text-white"><span class="has-text-weight-semibold">Location:</span> Christchurch</li>
+                        </ul>
+                    </div>
+                    
+                    <div id="user-friends" class="tile is-ancestor">
+                        <div class="tile is-vertical is-parent">
+                            <div class="tile friend-pic">
+                                <img src="./media/white-square-75.png" class="image">
+                            </div>
+                            
+                            <div class="tile friend-pic">
+                                <img src="./media/white-square-75.png" class="image">
+                            </div>
+                        </div>
+                        
+                        <div class="tile is-vertical is-parent">
+                            <div class="tile friend-pic">
+                                <img src="./media/white-square-75.png" class="image">
+                            </div>
+                            
+                            <div class="tile friend-pic">
+                                <img src="./media/white-square-75.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="column is-7 is-offset-1">
+                <div class="box">
+                    <form id="make-post">
+                        <textarea id="postContent" name="postContent" class="textarea has-text-white" placeholder="What's on your mind?" rows="2"></textarea>
+                        
+                        <div class="buttons is-right" id="user-post-submit">
+                            <input type="submit" value="SUBMIT" id="user-post-submit" class="button is-primary has-text-orange" />
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="box">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="./media/white-square-75.png">
+                        </div>
+                        
+                        <div class="media-content">
+                            <p class="has-text-orange is-size-5">USERNAME</p>
+                            <p class="has-text-orange is-size-7 is-mock-link">April 2 at 10:33pm</p>
+                            
+                            <p class="has-text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum sodales risus, quis mollis ligula viverra quis. In enim leo, sodales nec sapien nec, molestie pulvinar enim. Integer eu mattis.</p>                        
+                            
+                            <div class="level">
+                                <div class="level-left">
+                                    <p class="level-item is-mock-link has-text-orange">Comments (0)</p>
+                                </div>
+                                
+                                <div class="level-right">
+                                    <p class="level-item is-mock-link has-text-orange">Share</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                
+                <div class="box">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="./media/white-square-75.png">
+                        </div>
+                        
+                        <div class="media-content">
+                            <p class="has-text-orange is-size-5">USERNAME</p>
+                            <p class="has-text-orange is-size-7 is-mock-link">March 29th at 7:42pm</p>
+                            
+                            <p class="has-text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum sodales risus, quis mollis ligula viverra quis. In enim leo, sodales nec sapien nec, molestie pulvinar enim. Integer eu mattis.</p>
+
+                            <div class="box">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <img src="./media/white-square-75.png">
+                                    </div>
+                                    
+                                    <div class="media-content">
+                                        <p class="has-text-orange is-size-5 is-mock-link">USERNAME</p>
+                                        <p class="has-text-orange is-size-7 is-mock-link">March 29th at 1:19pm</p>
+                                        
+                                        <p class="has-text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum sodales risus, quis mollis ligula viverra quis. In enim leo, sodales nec sapien nec, molestie pulvinar enim. Integer eu mattis.</p>
+                                    </div>
+                                </div> 
+                            </div>
+                            
+                            <div class="level">
+                                <div class="level-left">
+                                    <p class="level-item is-mock-link has-text-orange">Comments (0)</p>
+                                </div>
+                                
+                                <div class="level-right">
+                                    <p class="level-item is-mock-link has-text-orange">Share Original</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

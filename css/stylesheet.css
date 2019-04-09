@@ -26,3 +26,57 @@ body {
 #submit-button {
     margin-top: .5em;
 }
+
+#my-level {
+    margin-bottom: 0rem;
+    padding: .5rem;
+}
+
+.is-mock-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#login-modal-content {
+    padding: 2rem 5rem;
+    border: 1px solid #57C9A0;
+}
+
+#user-blurb {
+    margin-left: 2rem;
+    padding: .75rem 0;
+}
+
+#user-profile-pic-placeholder {
+    width: 150px;
+    height: 150px;
+    margin: 1.5rem auto .5rem auto;
+}
+
+#user-stats {
+    width: 175px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem auto;
+}
+
+#user-friends {
+    width: 200px;
+    margin: auto;
+}
+
+.friend-pic {
+    margin: .625rem 0;
+}
+
+#user-post-submit {
+    margin-top: 0.5rem;
+}
+
+#mock-share-post {
+    margin-top: 1rem;
+    width: 525px;
+}
+
+#inner-post {
+    padding: .25rem 1rem 0 1rem;
+}
